@@ -1,4 +1,4 @@
-package com.yezhibo.LeetCode.bitoperation;
+package com.yezhibo.leetcode.bitoperation;
 
 import java.util.ArrayList;
 import java.util.List;

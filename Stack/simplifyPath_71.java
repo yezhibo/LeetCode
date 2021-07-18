@@ -1,4 +1,4 @@
-package com.yezhibo.LeetCode.Stack;
+package com.yezhibo.leetcode.Stack;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;

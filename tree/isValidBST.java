@@ -1,4 +1,4 @@
-package com.yezhibo.LeetCode.tree;
+package com.yezhibo.leetcode.tree;
 
 /**
  * 通过递归的方法，

@@ -1,4 +1,4 @@
-package com.yezhibo.LeetCode;
+package com.yezhibo.leetcode;
 
 /**
  * 字符串转整数

@@ -1,4 +1,4 @@
-package com.yezhibo.LeetCode.tree;
+package com.yezhibo.leetcode.tree;
 
 import java.util.ArrayList;
 import java.util.List;

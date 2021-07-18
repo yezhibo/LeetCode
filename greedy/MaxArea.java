@@ -1,4 +1,4 @@
-package com.yezhibo.LeetCode.greedy;
+package com.yezhibo.leetcode.greedy;
 
 /**
  * 求一个数组中能组成的最大区域：

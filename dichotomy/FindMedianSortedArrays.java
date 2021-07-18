@@ -1,4 +1,4 @@
-package com.yezhibo.LeetCode.dichotomy;
+package com.yezhibo.leetcode.dichotomy;
 
 /**
  * 输入两个数组，计算数组的中位数
