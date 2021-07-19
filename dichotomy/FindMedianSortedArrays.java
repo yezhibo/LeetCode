@@ -1,6 +1,8 @@
 package com.yezhibo.leetcode.dichotomy;
 
 /**
+ * https://leetcode-cn.com/problems/median-of-two-sorted-arrays/
+ * 题目描述：
  * 输入两个数组，计算数组的中位数
  * 中位数：总树是奇数的化，中间那个，总数是偶数的话取中间两个数的平均值
  *
@@ -16,6 +18,7 @@ public class FindMedianSortedArrays {
      *  如果是奇数个取第 len/2 + 1个数，偶数个取两个数的平均值
      *
      *  边界条件：如果第一个数组没有越界 并且第一个数值小于第二个 挪动第一个下标 否则挪动第二个下标，当第二个越界是，继续挪动第一个
+     *  时间复杂度O(m+n)
      */
     public static double findMedianSortedArrays_1(int[] nums1, int[] nums2) {
         int left = -1;
@@ -38,6 +41,16 @@ public class FindMedianSortedArrays {
         } else {
             return right;
         }
+    }
+
+    /**
+     * 方法2：
+     * 为了达到时间复杂度为O(log(m+n)) 需要采用二分法
+     *
+     */
+    public static double findMedianSortedArrays_2(int[] nums1, int[] nums2) {
+
+        return 0;
     }
 
     public static void main(String[] args) {
