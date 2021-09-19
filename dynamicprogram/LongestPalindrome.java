@@ -7,15 +7,23 @@ import org.junit.Test;
  * https://leetcode-cn.com/problems/longest-palindromic-substring/
  *
  * 题目描述：
- * 给定一个字符串s，找到s中最长的回文子串。
+ * 给你一个字符串s，找到s中最长的回文子串
  *
  * 解题思路：
- * 设dp[i][j] 表示字符串从位置i到位置j之间的字符是否为回文串
- * 则状态转移方程可表示为：
+ * 如果一个子串为回文串，那么去掉首尾元素后依然是回文子串
+ * 利用该原理可以缩小问题规模，进而采用动态规划算法
  *
- * dp[i][j] = s[i]==s[j] && dp[i+1][j-1]
+ * 设dp[i][j] 表示以第i个字符开始到第j个字符结束的子串是否为回文串，则有递推方程：
  *
- * 最终求出dp[i][j] 为true并且 j-i最大的即可
+ * if(j-i==0 || (j-i==1 && s[i]=s[j])) {
+ *     dp[i][j] = true;
+ * }
+ * if (s[i]==s[j] && dp[i+1][j-1]) {
+ *     dp[i][j] = false;
+ * }
+ *
+ * 注意：由于递推方程是从短到长来依次递进的，所以遍历时可按子串长度来遍历；
+ * 最终输出结果为最长回文串，因此需要定义一个全局变量用来存储单步执行后的最长回文串
  */
 public class LongestPalindrome {
     public String longestPalindrome(String s) {
