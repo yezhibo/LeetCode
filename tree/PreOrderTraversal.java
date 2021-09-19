@@ -4,7 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 二叉树前序遍历
+ * 144.二叉树前序遍历
+ * https://leetcode-cn.com/problems/binary-tree-preorder-traversal/
+ *
+ * 题目描述：
+ * 给你二叉树的根节点root，返回它节点值的前序遍历
+ *
+ * 解题思路：
+ *
  *
  */
 public class PreOrderTraversal {
