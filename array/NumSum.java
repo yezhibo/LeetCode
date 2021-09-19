@@ -8,6 +8,7 @@ import java.util.List;
  * 设计一个算法，找出数组中两数之和为指定值的所有整数对，一个数只能属于一个数对
  * 思路：
  * 首先将数组数据按从小到大顺序排序，然后从头开始遍历
+ *
  */
 public class NumSum {
     public static List<List<Integer>> pairSums(int[] nums, int target) {
