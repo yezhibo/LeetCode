@@ -1,4 +1,4 @@
-package com.yezhibo.leetcode;
+package com.yezhibo.leetcode.array;
 
 import java.util.Arrays;
 import java.util.Set;

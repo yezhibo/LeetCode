@@ -1,4 +1,4 @@
-package com.yezhibo.leetcode.Stack;
+package com.yezhibo.leetcode.stack;
 
 import org.junit.Test;
 

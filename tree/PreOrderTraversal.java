@@ -1,4 +1,4 @@
-package com.yezhibo.leetcode;
+package com.yezhibo.leetcode.tree;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,19 +21,5 @@ public class PreOrderTraversal {
         result.add(node.val);
         preOrder(node.left);
         preOrder(node.right);
-    }
-}
-
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode() {}
-    TreeNode(int val) { this.val = val; }
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
     }
 }

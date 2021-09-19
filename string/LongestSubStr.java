@@ -1,4 +1,4 @@
-package com.yezhibo.leetcode;
+package com.yezhibo.leetcode.string;
 
 import java.util.HashSet;
 import java.util.Set;

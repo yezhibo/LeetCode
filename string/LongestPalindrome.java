@@ -1,5 +1,8 @@
-package com.yezhibo.leetcode;
+package com.yezhibo.leetcode.string;
 
+/**
+ * 最长回文子串
+ */
 public class LongestPalindrome {
     public String longestPalindrome(String s) {
         int n = s.length();

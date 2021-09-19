@@ -1,4 +1,4 @@
-package com.yezhibo.leetcode;
+package com.yezhibo.leetcode.function;
 
 import java.util.HashMap;
 import java.util.Map;

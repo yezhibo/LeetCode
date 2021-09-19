@@ -1,4 +1,4 @@
-package com.yezhibo.leetcode;
+package com.yezhibo.leetcode.linklist;
 
 /**
  * 合并两个有序链表
@@ -38,12 +38,5 @@ public class MergeTwoLists {
         ListNode l3 = mergeTwoLists(l1, l2);
         System.out.println(l3.val);
     }
-}
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode() {}
-    ListNode(int val) { this.val = val; }
-    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
 
