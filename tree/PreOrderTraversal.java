@@ -11,7 +11,7 @@ import java.util.List;
  * 给你二叉树的根节点root，返回它节点值的前序遍历
  *
  * 解题思路：
- *
+ * 前序遍历：根 -> 左 -> 右
  *
  */
 public class PreOrderTraversal {
