@@ -12,4 +12,5 @@ package com.yezhibo.leetcode.array;
  *
  */
 public class ShortestSubArrayWithSumAtLeastK {
+
 }
