@@ -1,9 +1,21 @@
 package com.yezhibo.leetcode.string;
 
+import org.junit.Test;
+
 import java.util.Stack;
 
 /**
- * 计算器
+ * 面试题16.26 计算器
+ * https://leetcode-cn.com/problems/calculator-lcci/
+ *
+ * 题目描述：
+ *
+ * 给定一个包含正整数、加(+)、减(-)、乘(*)、除(/)的算数表达式(括号除外)，计算其结果。
+ *
+ * 表达式仅包含非负整数，+， - ，*，/ 四种运算符和空格  。 整数除法仅保留整数部分。
+ *
+ * 解题思路：
+ *
  */
 public class Caculate {
     public static int calculate(String s) {
@@ -42,7 +54,8 @@ public class Caculate {
         return ans;
     }
 
-    public static void main(String[] args) {
+    @Test
+    public void test() {
         String input1 = "3 + 12 *2-10/2+5*3";
         System.out.println(calculate(input1));
     }

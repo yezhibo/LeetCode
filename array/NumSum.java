@@ -1,12 +1,18 @@
 package com.yezhibo.leetcode.array;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 /**
+ * 面试题 16.24 数对和
+ * https://leetcode-cn.com/problems/pairs-with-sum-lcci/
+ * 题目描述：
  * 设计一个算法，找出数组中两数之和为指定值的所有整数对，一个数只能属于一个数对
- * 思路：
+ *
+ * 解题思路：
  * 首先将数组数据按从小到大顺序排序，然后从头开始遍历
  *
  */
@@ -37,7 +43,8 @@ public class NumSum {
         return result;
     }
 
-    public static void main(String[] args) {
+    @Test
+    public void test() {
         int[] input = new int[]{5,6,5};
         int target = 11;
         System.out.println(pairSums(input, target));

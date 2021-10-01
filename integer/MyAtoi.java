@@ -1,7 +1,16 @@
-package com.yezhibo.leetcode.string;
+package com.yezhibo.leetcode.integer;
+
+import org.junit.Test;
 
 /**
- * 字符串转整数
+ * 8.字符串转整数
+ * https://leetcode-cn.com/problems/string-to-integer-atoi/
+ *
+ * 题目描述：
+ * 请你实现一个函数，使其能将一个字符串转成一个32位有符号整数
+ *
+ *
+ * 解题思路：
  * 1、去除前边无用空格
  * 2、检查第一个字符为正号还是负号
  * 3、读入下一个字符，直到到达输入的末尾，剩余的被忽略
@@ -63,5 +72,14 @@ public class MyAtoi {
             }
         }
         return s.substring(start);
+    }
+
+    @Test
+    public void test() {
+        System.out.println(myAtoi("4193 with word"));
+        System.out.println(myAtoi("42"));
+        System.out.println(myAtoi("   -42"));
+        System.out.println(myAtoi("words and 987"));
+        System.out.println(myAtoi("-91283472332"));
     }
 }
