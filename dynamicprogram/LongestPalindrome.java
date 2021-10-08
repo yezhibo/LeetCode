@@ -19,7 +19,7 @@ import org.junit.Test;
  *     dp[i][j] = true;
  * }
  * if (s[i]==s[j] && dp[i+1][j-1]) {
- *     dp[i][j] = false;
+ *     dp[i][j] = true;
  * }
  *
  * 注意：由于递推方程是从短到长来依次递进的，所以遍历时可按子串长度来遍历；
